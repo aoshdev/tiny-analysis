@@ -1,10 +1,10 @@
 # tiny-analysis
 
-Repository for random bits of analysis.
+Repository for random bits of analysis. Overview of code below.
 
 
-## Code descriptions
-**EPL Code** *Graphs EPL teams' points by matchday.*
+### EPL Code
+*Graphs EPL teams' points by matchday.*
 
 Key points
 - Highlights consistency of Liverpool for long stretches of the season, especially from matchday 9 to 27.

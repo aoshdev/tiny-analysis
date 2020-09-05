@@ -2,7 +2,7 @@
 
 Repository for random bits of analysis. Overview of code below.
 
-### EPL Code
+### Football points by matchday
 *Graphs EPL teams' points by matchday.*
 
 Key points

@@ -17,6 +17,7 @@ Improvements
 
 ### Luck simulation
 *Luck, skill, experience and hard work all play a role in our achievements. How much of a role does luck play?*
+*Inspired by Veritasium's video 'Is Success Luck or Hard Work?'*
 
 Findings (based on 1,000 simulations, weighing 5% of total score to luck and 95% to skill, with 18,300 participants and of these choosing 11 winners)
 - Winners were both skilled and lucky.

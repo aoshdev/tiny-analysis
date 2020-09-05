@@ -61,7 +61,7 @@ matchday_label <- seq(from = min(epl1920_final$Matchday), to = max(epl1920_final
 ggplot(epl1920_final, aes(x = Matchday, y = CumulativePoints, color = Team)) + 
   geom_line() +
   scale_x_continuous(labels = matchday_label, breaks = matchday_label) + 
-  ggtitle(paste('EPL 2019/20: Points by matchday (top', n_teams, 'RPL teams)')) +
+  ggtitle(paste('EPL 2019/20: Points by matchday (top', n_teams, 'EPL teams)')) +
   ylab("Points")
 
 

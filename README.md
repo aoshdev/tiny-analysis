@@ -18,7 +18,7 @@ Improvements
 ### Luck simulation
 *Luck, skill, experience and hard work all play a role in our achievements. How much of a role does luck play?*
 
-Key points (based on 1,000 simulations, weighing 5% of total score to luck and 95% to skill, with 18,300 participants and of these choosing 11 winners)
+Findings (based on 1,000 simulations, weighing 5% of total score to luck and 95% to skill, with 18,300 participants and of these choosing 11 winners)
 - Winners were both skilled and lucky.
 - On average, the winners had a luck score of 94.84 out of 100 (even though the weighting on this was only 5%).
 - Only 1.59 of the 11 that won would have won with skill alone (i.e. removing the luck factor from all participants).

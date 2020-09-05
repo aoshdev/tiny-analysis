@@ -1,13 +1,15 @@
-getwd()
-
+# Get libraries
 library(readr)
 library(tidyverse)
+library(assertive)
 
+# Get data
 url_1920 <- "https://www.football-data.co.uk/mmz4281/1920/E0.csv"
 # Data notes: https://www.football-data.co.uk/notes.txt
 
 epl1920 <- read.csv(url_1920)
 
+# Keep useful variables
 epl1920a <- epl1920 %>% 
   select(Date, HomeTeam, AwayTeam, FTHG, FTAG, FTR)
 
@@ -38,11 +40,8 @@ for (i in teams1920) {
   
 }
 
-# Check rows
-nrow(epl1920_stack) == 38*20
-str(epl1920_stack)
-
-# Graph
+# Check rows = 38 games in season * 20 teams
+assert_all_are_true(nrow(epl1920_stack) == 38*20)
 
 # Number of teams to show
 n_teams = 4
@@ -56,6 +55,7 @@ epl1920_top
 epl1920_final <- epl1920_stack %>% 
   filter(Team %in% epl1920_top)
 
+# Graph
 matchday_label <- seq(from = min(epl1920_final$Matchday), to = max(epl1920_final$Matchday), by = 2)
 
 ggplot(epl1920_final, aes(x = Matchday, y = CumulativePoints, color = Team)) + 

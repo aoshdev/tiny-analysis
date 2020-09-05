@@ -26,6 +26,6 @@ Basis
 
 Findings 
 - Winners were both skilled and lucky.
-- On average, the winners had a luck score of 94.84 out of 100 (even though the weighting on this was only 5%).
+- On average, luck played a large role as the winners had a luck score of 94.84 out of 100 (even though the weighting on this was only 5%).
 - Only 1.59 of the 11 that won would have won with skill alone (i.e. removing the luck factor from all participants).
 - As the proportion of winners decrease, luck plays an increasingly larger role in who is selected as a winner.

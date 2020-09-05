@@ -2,7 +2,6 @@
 
 Repository for random bits of analysis. Overview of code below.
 
-
 ### EPL Code
 *Graphs EPL teams' points by matchday.*
 

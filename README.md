@@ -1,4 +1,4 @@
-# tiny-analysis
+### Random bits of analysis
 
 Repository for random bits of analysis. Overview of code below.
 
